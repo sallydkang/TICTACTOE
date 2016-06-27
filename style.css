@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+}
+
+#grid {
+  text-align: center;
+  margin: 5% auto;
+  background: pink;
+  border-radius: 150px;
+  border: pink solid 40px;
+  box-shadow: 0 0 10px 2px black;
+  margin-bottom: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  border: black solid 7px;
+  border-radius: 30px;
+  width: 350px;
+  margin: 50px auto;
+  background-color: #87CEFA;
+  box-shadow: 0px 0 20px 1px black;
+  margin-bottom: 25px;
+}
+
+
+#topText {
+  font-size: 30px;
+  text-align: center;
+  height: 30px;
+}
+
+p {
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+#tLeft {
+  border-radius: 0px 10px 0px 10px;
+  border-right: black double 7px;
+  border-bottom: black double 7px;
+  width: 100px;
+  height: 100px;
+}
+
+#tMiddle {
+ border-bottom: black double 7px;
+ width: 100px;
+ height: 100px;
+}
+
+#tRight {
+  border-left: black double 7px;
+  border-bottom: black double 7px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+#mLeft {
+  border-bottom-left-radius: 10px;
+  border-right: black double 7px;
+  width: 100px;
+  height: 100px;
+}
+
+#mMiddle {
+  width: 100px;
+  height: 100px;
+}
+
+#mRight {
+  border-left: black double 7px;
+  border-bottom-right-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+#bLeft {
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top: black double 7px;
+  border-right: black double 7px;
+  width: 100px;
+  height: 100px;
+}
+
+#bMiddle {
+  border-bottom-right-radius: 10px;
+  border-top: black double 7px;
+  width: 100px;
+  height: 100px;
+}
+
+#bRight {
+  border-left: black double 7px;
+  border-top: black double 7px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+#start {
+  margin-bottom: 0px;
+}
+
+.button {
+  margin-bottom: 30px;
+  border: black solid 3px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px black;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <h1>PLAY TIC TAC TOE!</h1>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <h3 id="topText">Welcome!</h3>
+    <div id="message"></div>
+    <table id="grid">
+      <tr>
+        <td id="tLeft" class="box" onclick="move()"></td>
+        <td id="tMiddle" class="box" onclick="move2()"></td>
+        <td id="tRight" class="box" onclick="move3()"></td>
+      </tr>
+      <tr>
+        <td id="mLeft" class="box" onclick="move4()"></td>
+        <td id="mMiddle" class="box" onclick="move5()"></td>
+        <td id="mRight" class="box" onclick="move6()"></td>
+      </tr>
+      <tr>
+        <td id="bLeft" class="box" onclick="move7()"></td>
+        <td id="bMiddle" class="box" onclick="move8()"></td>
+        <td id="bRight" class="box" onclick="move9()"></td>
+      </tr>
+    </table>
+
+  <button id="start" class="button" onclick = "start();">Whose turn?</button><br></br>
+  <button onclick = "refresh();" class="button">New Game</button>
+
+    <div style="position: relative">
+      <p style="position: fixed; bottom: 0; width:100%; text-align: left">=BY SALLY KANG=</p></div>
+  </body>
+
+</html>

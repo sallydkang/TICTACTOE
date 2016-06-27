@@ -15,99 +15,136 @@ function refresh(){
 
 function move(){
   var pMove = document.getElementById("tLeft");
-  pMove.innerHTML=turn;
   pMove.style.fontSize = "xx-large";
-  if(turn == "X"){
-    turn = "O";
+
+  if(pMove.textContent === "X" || pMove.textContent === "O"){
   } else {
-    turn = "X";
+    if(turn == "X"){
+      pMove.innerHTML=turn;
+      turn = "O";
+    } else {
+      pMove.innerHTML=turn;
+      turn = "X";
+    }
   }
 }
 
 function move2(){
   var pMove = document.getElementById("tMiddle");
-  pMove.innerHTML=turn;
   pMove.style.fontSize="xx-large";
+if(pMove.textContent === "X" || pMove.textContent === "O"){
+} else {
   if(turn == "X"){
+      pMove.innerHTML=turn;
     turn = "O";
   } else {
+    pMove.innerHTML=turn;
     turn = "X";
   }
+}
 }
 
 function move3(){
   var pMove = document.getElementById("tRight");
-  pMove.innerHTML=turn;
   pMove.style.fontSize="xx-large";
-  if(turn == "X"){
-    turn = "O";
+  if(pMove.textContent === "X" || pMove.textContent === "O"){
   } else {
-    turn = "X";
+    if(turn == "X"){
+        pMove.innerHTML=turn;
+      turn = "O";
+    } else {
+      pMove.innerHTML=turn;
+      turn = "X";
+    }
   }
 }
 
 function move4(){
   var pMove = document.getElementById("mLeft");
-  pMove.innerHTML=turn;
   pMove.style.fontSize="xx-large";
-  if(turn == "X"){
-    turn = "O";
+  if(pMove.textContent === "X" || pMove.textContent === "O"){
   } else {
-    turn = "X";
+    if(turn == "X"){
+        pMove.innerHTML=turn;
+      turn = "O";
+    } else {
+      pMove.innerHTML=turn;
+      turn = "X";
+    }
   }
 }
 
 function move5(){
   var pMove = document.getElementById("mMiddle");
-  pMove.innerHTML=turn;
   pMove.style.fontSize="xx-large";
-  if(turn == "X"){
-    turn = "O";
+  if(pMove.textContent === "X" || pMove.textContent === "O"){
   } else {
-    turn = "X";
+    if(turn == "X"){
+        pMove.innerHTML=turn;
+      turn = "O";
+    } else {
+      pMove.innerHTML=turn;
+      turn = "X";
+    }
   }
 }
 
 function move6(){
   var pMove = document.getElementById("mRight");
-  pMove.innerHTML=turn;
   pMove.style.fontSize="xx-large";
-  if(turn == "X"){
-    turn = "O";
+  if(pMove.textContent === "X" || pMove.textContent === "O"){
   } else {
-    turn = "X";
+    if(turn == "X"){
+        pMove.innerHTML=turn;
+      turn = "O";
+    } else {
+      pMove.innerHTML=turn;
+      turn = "X";
+    }
   }
 }
 
 function move7(){
   var pMove = document.getElementById("bLeft");
-  pMove.innerHTML=turn;
   pMove.style.fontSize="xx-large";
-  if(turn == "X"){
-    turn = "O";
+  if(pMove.textContent === "X" || pMove.textContent === "O"){
   } else {
-    turn = "X";
+    if(turn == "X"){
+        pMove.innerHTML=turn;
+      turn = "O";
+    } else {
+      pMove.innerHTML=turn;
+      turn = "X";
+    }
   }
 }
 
 function move8(){
   var pMove = document.getElementById("bMiddle");
-  pMove.innerHTML=turn;
   pMove.style.fontSize="xx-large";
-  if(turn == "X"){
-    turn = "O";
+  if(pMove.textContent === "X" || pMove.textContent === "O"){
   } else {
-    turn = "X";
+    if(turn == "X"){
+        pMove.innerHTML=turn;
+      turn = "O";
+    } else {
+      pMove.innerHTML=turn;
+      turn = "X";
+    }
   }
 }
 
 function move9(){
   var pMove = document.getElementById("bRight");
-  pMove.innerHTML=turn;
   pMove.style.fontSize="xx-large";
-  if(turn == "X"){
-    turn = "O";
+  if(pMove.textContent === "X" || pMove.textContent === "O"){
   } else {
-    turn = "X";
+    if(turn == "X"){
+        pMove.innerHTML=turn;
+      turn = "O";
+    } else {
+      pMove.innerHTML=turn;
+      turn = "X";
+    }
   }
 }

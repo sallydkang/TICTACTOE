@@ -16,7 +16,7 @@ function refresh(){
 function move(){
   var pMove = document.getElementById("tLeft");
   pMove.style.fontSize = "xx-large";
-
+  
   if(pMove.innerHTML === "X" || pMove.innerHTML === "O"){
   } else {
     pMove.innerHTML=turn;
@@ -31,6 +31,7 @@ function move(){
 function move2(){
   var pMove = document.getElementById("tMiddle");
   pMove.style.fontSize="xx-large";
+   
 if(pMove.innerHTML === "X" || pMove.innerHTML === "O"){
 } else {
   pMove.innerHTML=turn;
@@ -45,6 +46,7 @@ if(pMove.innerHTML === "X" || pMove.innerHTML === "O"){
 function move3(){
   var pMove = document.getElementById("tRight");
   pMove.style.fontSize="xx-large";
+   
   if(pMove.innerHTML === "X" || pMove.innerHTML === "O"){
   } else {
     pMove.innerHTML=turn;
@@ -59,6 +61,7 @@ function move3(){
 function move4(){
   var pMove = document.getElementById("mLeft");
   pMove.style.fontSize="xx-large";
+   
   if(pMove.innerHTML === "X" || pMove.innerHTML === "O"){
   } else {
     pMove.innerHTML=turn;
@@ -73,6 +76,7 @@ function move4(){
 function move5(){
   var pMove = document.getElementById("mMiddle");
   pMove.style.fontSize="xx-large";
+   
   if(pMove.innerHTML === "X" || pMove.innerHTML === "O"){
   } else {
     pMove.innerHTML=turn;
@@ -87,6 +91,7 @@ function move5(){
 function move6(){
   var pMove = document.getElementById("mRight");
   pMove.style.fontSize="xx-large";
+   
   if(pMove.innerHTML === "X" || pMove.innerHTML === "O"){
   } else {
     pMove.innerHTML=turn;
@@ -102,6 +107,7 @@ function move6(){
 function move7(){
   var pMove = document.getElementById("bLeft");
   pMove.style.fontSize="xx-large";
+   
   if(pMove.innerHTML === "X" || pMove.innerHTML === "O"){
   } else {
     pMove.innerHTML=turn;
@@ -116,6 +122,7 @@ function move7(){
 function move8(){
   var pMove = document.getElementById("bMiddle");
   pMove.style.fontSize="xx-large";
+   
   if(pMove.innerHTML === "X" || pMove.innerHTML === "O"){
   } else {
     pMove.innerHTML=turn;
@@ -130,6 +137,7 @@ function move8(){
 function move9(){
   var pMove = document.getElementById("bRight");
   pMove.style.fontSize="xx-large";
+   
   if(pMove.innerHTML === "X" || pMove.innerHTML === "O"){
   } else {
     pMove.innerHTML=turn;
